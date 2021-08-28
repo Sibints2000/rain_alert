@@ -16,5 +16,7 @@ weather_data = response.json()
 weather_slice = weather_data["hourly"][:12]
 for hour_data in weather_slice:
     condition_code = hour_data["weather"][0]["id"]
+    if int(condition_code) < 700:
+        print("Bring an umbrella.")
 
 # print(weather_data["hourly"][0]["weather"][0]["id"])
