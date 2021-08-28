@@ -22,6 +22,7 @@ for hour_data in weather_slice:
     if int(condition_code) < 700:
         will_rain = True
 
-
+if will_rain:
+    print("Bring an umbrella.")
 
 # print(weather_data["hourly"][0]["weather"][0]["id"])
