@@ -4,8 +4,8 @@ OWM_Endpoint = "https://api.openweathermap.org/data/2.5/onecall"
 api_key = "9fcfa411c1742820ff1de86d72434f2c"
 
 weather_params = {
-    "lat":  12.914142,
-    "lon":  74.855957,
+    "lat":  51.759050,
+    "lon":  19.458600,
     "appid": api_key,
     "exclude": "current,minutely,daily"
 }
@@ -13,4 +13,4 @@ weather_params = {
 response = requests.get(OWM_Endpoint, params=weather_params)
 response.raise_for_status()
 weather_data = response.json()
-print(weather_data)
+print(weather_data[])
