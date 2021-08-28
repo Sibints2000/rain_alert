@@ -9,4 +9,6 @@ weather_params = {
     "appid":api_key
 }
 
-requests.get(OWM_Endpoint, params=)
+response = requests.get(OWM_Endpoint, params=weather_params)
+print(response)
+
