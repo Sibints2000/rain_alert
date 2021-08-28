@@ -10,5 +10,6 @@ weather_params = {
 }
 
 response = requests.get(OWM_Endpoint, params=weather_params)
+response.raise_for_status()
 response.json()
 
