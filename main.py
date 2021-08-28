@@ -13,4 +13,5 @@ weather_params = {
 response = requests.get(OWM_Endpoint, params=weather_params)
 response.raise_for_status()
 weather_data = response.json()
-print(weather_data["hourly"][0]["weather"][0]["id"])
+weather_slice = weather_data["hourly"]
+# print(weather_data["hourly"][0]["weather"][0]["id"])
