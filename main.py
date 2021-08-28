@@ -10,5 +10,5 @@ weather_params = {
 }
 
 response = requests.get(OWM_Endpoint, params=weather_params)
-print(response.status_code)
+response.json()
 
