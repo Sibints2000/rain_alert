@@ -4,8 +4,8 @@ OWM_Endpoint = "https://api.openweathermap.org/data/2.5/onecall"
 api_key = "9fcfa411c1742820ff1de86d72434f2c"
 
 weather_params = {
-    "lat":
-    "lon":
+    "lat":  12.914142,
+    "lon":  74.855957,
     "appid":api_key
 }
 
