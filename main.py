@@ -24,4 +24,3 @@ for hour_data in weather_slice:
 
 if will_rain:
     print("Bring an umbrella.")
-
