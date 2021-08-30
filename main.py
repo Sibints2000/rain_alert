@@ -1,7 +1,7 @@
 import requests
 
-OWM_Endpoint = "https://api.openweathermap.org/data/2.5/onecall"
-api_key = "9fcfa411c1742820ff1de86d72434f2c"
+OWM_Endpoint = "OWN ENDPOINT"
+api_key = "API KEY"
 
 weather_params = {
     "lat":  51.759050,
